@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Stars, useFBX } from "@react-three/drei";
-import { Physics, usePlane, useBox } from "@react-three/cannon";
+import { Physics } from "@react-three/cannon";
 import Samba from "./Silly Dancing.fbx"
 import * as THREE from "three"
 import "./styles.css";
