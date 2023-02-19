@@ -1,4 +1,2 @@
-# Building a 3D world in react three fiber
+Displaying A 3D FBX file with React-Three-Fiber and Three.js
 
-Build walkthrough in this Youtube video:
-[![Video preview](https://img.youtube.com/vi/FGG0EeMNUl0/0.jpg)](https://www.youtube.com/watch?v=FGG0EeMNUl0)
