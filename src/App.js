@@ -143,11 +143,6 @@ useEffect(() => {
 </Canvas>
 <button  onClick={()=> {setplay(play === true ? false : true); settext(text === "Pause" ? "Play" : "Pause")}} style={{position: "absolute", top: "100px", right: "100px", background: "none", border: "1px solid #fff", color: "#fff", cursor: "pointer", padding: "8px 30px"}}>{text}</button>
 
-<i style={{position: "absolute", bottom: "150px", right: "45%", color: "#fff", cursor: "pointer", transform: "rotate(90deg)" }} class="fas fa-arrow-left"></i>
-<i style={{position: "absolute", bottom: "50px", right: "45%", color: "#fff", cursor: "pointer", transform: "rotate(90deg)"}} class="fas fa-arrow-right"></i>
-<i onClick={MoveRight} style={{position: "absolute", bottom: "100px", right: "40%", color: "#fff", cursor: "pointer"}} class="fas fa-arrow-right"></i>
-<i style={{position: "absolute", bottom: "100px", right: "50%", color: "#fff", cursor: "pointer"}} class="fas fa-arrow-left"></i>
-
 </>
   )
 }
